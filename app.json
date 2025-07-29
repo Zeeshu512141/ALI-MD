@@ -45,7 +45,7 @@
       "value": "false"
     }, 
     
-    "ADMIN_STATUS": {
+    "ADMIN_ACTION": {
       "description": "make it true if want know who promote or demote a member .",
       "required": false,
       "value": "false"
@@ -124,6 +124,12 @@
       "required": false,
       "value": "false"
     }, 
+
+     "ALWAYS_ONLINE": {
+      "description": "Make it true if want always online.",
+      "required": true,
+      "value": "false"  
+    },   
     
     "AUTO_RECORDING": {
       "description": "Make it true if you want auto recoding.",
